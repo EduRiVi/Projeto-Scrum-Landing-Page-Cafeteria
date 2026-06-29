@@ -1,66 +1,159 @@
-<section id="depoimentos" class="testimonials">
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>CoffeeHub | High-Tech Coffee Experience</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-    <h2>O que nossos clientes dizem</h2>
+        <header>
+            <div class="logo">Coffee<span>Hub</span></div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#espaco">O Espaço</a>
+                <a href="#menu">Menu Digital</a>
+                <a href="#conexao" class="btn-nav">Conectar Wi-Fi</a>
+            </nav>
+        </header>
 
-    <div class="testimonial-grid">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>O Futuro do Café, <br>no Seu Ritmo.</h1>
+                <p>Alta gastronomia, internet ultrarrápida e ambientes hiperconectados para você criar, trabalhar ou relaxar.</p>
+                <a href="#menu" class="btn-main">Explorar Menu</a>
+            </div>
+            <div class="hero-glow"></div>
+        </section>
 
-        <div class="testimonial-card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>"O melhor lugar para trabalhar enquanto tomo um café. Internet excelente e ambiente confortável."</p>
-            <strong>— Ana Paula</strong>
-        </div>
+        <section id="espaco" class="features">
+            <h2>Ambiente Inteligente</h2>
+            <div class="grid-features">
+                <div class="card-feature">
+                    <h3>Cyber Coworking</h3>
+                    <p>Mesas ergonômicas com carregadores por indução integrados e tomadas universais em todos os assentos.</p>
+                </div>
+                <div class="card-feature">
+                    <h3>Conexão Quântica</h3>
+                    <p>Wi-Fi 7 de alta velocidade gratuito para clientes. Estabilidade total para suas reuniões e deploys.</p>
+                </div>
+                <div class="card-feature">
+                    <h3>Estações Imersivas</h3>
+                    <p>Cabines acústicas privativas para chamadas de vídeo importantes, isoladas de qualquer ruído externo.</p>
+                </div>
+            </div>
+        </section>
 
-        <div class="testimonial-card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>"Os cafés são incríveis e o atendimento é muito rápido. Voltarei mais vezes!"</p>
-            <strong>— Lucas Martins</strong>
-        </div>
+        <section id="menu" class="menu-section">
+            <h2>Menu Futurista</h2>
+            <p class="subtitle">Selecione e simule seu pedido na nossa interface</p>
+            
+            <div class="menu-grid">
+                <div class="menu-card" data-price="14.00">
+                    <div class="card-neon-border"></div>
+                    <h3>Cyber Espresso</h3>
+                    <p>Grãos selecionados com extração controlada por IA. Notas sutis de chocolate.</p>
+                    <span class="price">R$ 14,00</span>
+                    <button class="btn-add">Adicionar ao Hub</button>
+                </div>
+                <div class="menu-card" data-price="18.50">
+                    <div class="card-neon-border"></div>
+                    <h3>Neon Latte</h3>
+                    <p>Café espresso com leite vaporizado e um toque secreto e brilhante de baunilha artesanal.</p>
+                    <span class="price">R$ 18,50</span>
+                    <button class="btn-add">Adicionar ao Hub</button>
+                </div>
+                <div class="menu-card" data-price="22.00">
+                    <div class="card-neon-border"></div>
+                    <h3>Quantum Cold Brew</h3>
+                    <p>Infusão a frio por 24 horas usando ondas ultrassônicas para maximizar o sabor.</p>
+                    <span class="price">R$ 22,00</span>
+                    <button class="btn-add">Adicionar ao Hub</button>
+                </div>
+            </div>
 
-        <div class="testimonial-card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>"Ambiente moderno, silencioso e perfeito para reuniões e estudos."</p>
-            <strong>— Mariana Souza</strong>
-        </div>
+            <div class="order-panel">
+                <h3>Seu Pedido (Simulação)</h3>
+                <p>Itens no carrinho: <span id="cart-count">0</span></p>
+                <p>Total: <span id="cart-total">R$ 0,00</span></p>
+                <button id="btn-checkout" class="btn-main">Finalizar no Balcão</button>
+            </div>
+        </section>
 
-    </div>
+        <section id="depoimentos" class="testimonials">
 
-</section>
+            <h2>O que nossos clientes dizem</h2>
 
-<section id="contato" class="contact">
+            <div class="testimonial-grid">
 
-    <h2>Entre em Contato</h2>
+                <div class="testimonial-card">
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <p>"O melhor lugar para trabalhar enquanto tomo um café. Internet excelente e ambiente confortável."</p>
+                    <strong>— Ana Paula</strong>
+                </div>
 
-    <form class="contact-form">
+                <div class="testimonial-card">
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <p>"Os cafés são incríveis e o atendimento é muito rápido. Voltarei mais vezes!"</p>
+                    <strong>— Lucas Martins</strong>
+                </div>
 
-        <input type="text" placeholder="Nome" required>
+                <div class="testimonial-card">
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <p>"Ambiente moderno, silencioso e perfeito para reuniões e estudos."</p>
+                    <strong>— Mariana Souza</strong>
+                </div>
 
-        <input type="email" placeholder="E-mail" required>
+            </div>
 
-        <textarea rows="5" placeholder="Digite sua mensagem..." required></textarea>
+        </section>
 
-        <button type="submit" class="btn-main">
-            Enviar
-        </button>
+        <section id="contato" class="contact">
 
-    </form>
+            <h2>Entre em Contato</h2>
 
-</section>
+            <form class="contact-form">
 
-<section id="localizacao" class="location">
+                <input type="text" placeholder="Nome" required>
 
-    <h2>Onde Estamos</h2>
+                <input type="email" placeholder="E-mail" required>
 
-    <p>
-        Avenida Cassiano Ricardo, 521<br>
-        Jardim Aquarius – São José dos Campos/SP
-    </p>
+                <textarea rows="5" placeholder="Digite sua mensagem..." required></textarea>
 
-    <iframe
-        src="https://www.google.com/maps?q=Avenida+Cassiano+Ricardo,+521,+São+José+dos+Campos&output=embed"
-        width="100%"
-        height="400"
-        style="border:0;"
-        loading="lazy">
-    </iframe>
+                <button type="submit" class="btn-main">
+                    Enviar
+                </button>
 
-</section>
+            </form>
+
+        </section>
+
+        <section id="localizacao" class="location">
+
+            <h2>Onde Estamos</h2>
+
+            <p>
+                Avenida Cassiano Ricardo, 521<br>
+                Jardim Aquarius – São José dos Campos/SP
+            </p>
+
+            <iframe
+                src="https://www.google.com/maps?q=Avenida+Cassiano+Ricardo,+521,+São+José+dos+Campos&output=embed"
+                width="100%"
+                height="400"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 CoffeeHub - Coffee & Tech Ecosystem. Todos os direitos reservados.</p>
+        </footer>
+
+        <script href="script.js" src="script.js"></script>
+    </body>
+</html>
