@@ -1,0 +1,64 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-superior{
+	display: flex;
+	height: 25px;
+	width: 100%;
+	box-shadow: 10px;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0px;
+	margin-top: 0px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	position: fixed;
+	z-index: 1000;
+	background-color: #BA5C46;
+	color: white;
+}
+
+
+.cabecalho{
+	display: flex;
+	height: 255px;
+	width: 100%;
+	background-color: #4B251C;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.corpo-principal{
+	height: 1580px;
+	width: 100%;
+	background-image: linear-gradient(135deg, #F1DFDB 0%, #E4BEB5 100%);
+}
+
+.titulo-mi{
+	padding: 5px;
+	background-color: #4b251c;
+	color: gray;
+	font-size: 20px;
+}
+
+.mais-informacoes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 15px;
+	height: 75px;
+	width: 100%;
+	background-color: #4b251c;
+	color: gray;
+}
+
+h1{
+	color: white;
+	font-size: 55px;
+	padding-right: 30px;
+}
